@@ -13,3 +13,5 @@
 
 5. CLIENT_MAX_BODY_SIZE (defaults 1m)
 
+
+Based on [dtan4/nginx-basic-auth-proxy](https://github.com/dtan4/nginx-basic-auth-proxy) and [carlosflorencio/docker-nginx-static-spa](https://github.com/carlosflorencio/docker-nginx-static-spa)
