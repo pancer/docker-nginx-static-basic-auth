@@ -1,10 +1,10 @@
-# Nginx basic auth for static content
+# Docker image for nginx basic auth for static content
 
-## Run nginx with basic http auth and serve static content from mounted volume
+## Run nginx in docker with basic http auth and serve static content from mounted volume
 
 ### Usage example:
 
-* docker run -e BASIC_AUTH_USERNAME=user -e BASIC_AUTH_PASSWORD=password -p 80:80 -v /home/user/content:/var/www/html smokimk/nginx-static-basic-auth
+* `docker run -e BASIC_AUTH_USERNAME=user -e BASIC_AUTH_PASSWORD=password -p 80:80 -v /home/user/content:/var/www/html smokimk/nginx-static-basic-auth`
 
 
 ### Environment variables:
